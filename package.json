@@ -1,0 +1,16 @@
+{
+    "name": "dark_server",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node index.js",
+        "db": "node db_connection.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "pg": "^8.7.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
